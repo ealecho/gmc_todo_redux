@@ -54,7 +54,7 @@ function App() {
                   role="radio"
                   aria-checked={filter === opt.value}
                   onClick={() => setFilter(opt.value)}
-                  className={`cursor-pointer border-none px-4 py-2 text-xs font-medium touch-manipulation transition-[background-color,color] duration-150 focus-visible:outline-2 focus-visible:outline-offset-[-2px] focus-visible:outline-accent ${
+                  className={`cursor-pointer border-none px-4 py-2 text-xs font-medium touch-manipulation transition-[background-color,color] duration-150 focus-visible:outline-2 focus-visible:outline-offset-2px focus-visible:outline-accent ${
                     filter === opt.value
                       ? 'bg-accent-bg text-accent'
                       : 'bg-transparent text-text-muted hover:bg-bg-subtle hover:text-text-secondary'
